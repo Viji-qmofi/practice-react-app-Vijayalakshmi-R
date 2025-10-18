@@ -1,0 +1,51 @@
+.App{
+  justify-content: center;
+  display:flex;
+  text-align: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+  
+}
+
+.profile-container{
+  max-width: 800px;
+}
+
+.profile-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap : 1.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.profile-card{
+  background-color: rgb(161, 161, 147);
+  border: 2px solid;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 220px;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.profile-card:hover{
+  background-color: aqua;
+  transform: scale(1.05);
+}
+
+h1{
+  background-color: orange;
+  border: 2px solid;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+
+
+
+
+
+
